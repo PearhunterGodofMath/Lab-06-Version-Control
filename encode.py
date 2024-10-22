@@ -24,6 +24,3 @@ def main():
 
         elif option == "3":
             break
-
-        else:
-            print("Invalid option. Please try again.")
