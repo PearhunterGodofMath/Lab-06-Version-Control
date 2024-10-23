@@ -38,4 +38,6 @@ def main():
 
         elif option == "3": # Ends the program.
             break
-print(main())
+
+if __name__ == "__main__":
+    main()
