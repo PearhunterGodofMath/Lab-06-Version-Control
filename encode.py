@@ -1,4 +1,4 @@
-# Team Member: David Campbell
+# Encode by David Campbell
 
 def encode(password):
     encoded_password = ""
@@ -32,8 +32,8 @@ def main():
                 print("Invalid password. Enter an 8-digit number.")
 
         elif option == "2":
-            # original_password = decode(encoded_password)
-            # print(f"The encoded password is {encoded_password}, and the original password is {original_password}.")
+            original_password = decode(encoded_password)
+            print(f"The encoded password is {encoded_password}, and the original password is {original_password}.")
 
         elif option == "3":
             break
