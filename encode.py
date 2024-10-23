@@ -1,4 +1,5 @@
 # Encode by David Campbell
+# Decode by Megha Ramprasad
 
 def encode(password):
     encoded_password = ""
