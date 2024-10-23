@@ -11,7 +11,7 @@ def encode(password):
 def decode(password):
     string = ''
     for item in password[0:9]: # limit to 8
-        string += str((int(item[0] - 3) % 10)) # accepts number, subtracts 3, mod 10, returns the number - 3
+        string += str((int(item[0]) - 3) % 10) # accepts number, subtracts 3, mod 10, returns the number - 3
     return str(string)
 
 def main():
