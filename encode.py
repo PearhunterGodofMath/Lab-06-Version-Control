@@ -2,6 +2,11 @@ def encode(password):
     encoded = "".join(str((int(digit) + 3) % 10) for digit in password)
     return encoded
 
+def decode(password):
+    string = ''
+    for item in password[0:9]:
+        string += str((int(item[0] - 3) % 10))
+    return str(string)
 
 def main():
     while True:
