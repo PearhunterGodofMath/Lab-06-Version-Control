@@ -1,4 +1,4 @@
-# decode by megha ramprasad
+# decode function by megha ramprasad
 
 def encode(password):
     encoded = "".join(str((int(digit) + 3) % 10) for digit in password)
