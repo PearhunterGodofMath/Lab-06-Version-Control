@@ -38,3 +38,4 @@ def main():
 
         elif option == "3": # Ends the program.
             break
+print(main())
