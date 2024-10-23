@@ -24,7 +24,7 @@ def main():
                 encoded_password = encode(password)
                 print("Your password has been encoded and stored!")
             else:
-                print("Invalid password. Please enter an 8-digit number.")
+                print("Invalid password. Enter an 8-digit number.")
 
         elif option == "2":
             # original_password = decode(encoded_password)
